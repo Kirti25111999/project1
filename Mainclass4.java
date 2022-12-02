@@ -7,7 +7,7 @@ public class Mainclass4 {
 public static void main(String[] args) {
 		
 		Person s1=new Person();
-		s1.name="Sakshi";
+		s1.name="Kirti";
 		s1.age=22;
 		
 		Person s2=new Person();
