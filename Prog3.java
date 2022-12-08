@@ -1,33 +1,40 @@
-package com.java3.array;
+//Autoboxing
+package com.java3.wrapper;
 
 public class Prog3 {
 
-	public static void main(String[] args)
+	public static void main(String[] args) 
 	{
-		int arr[][]=new int[5][];
-		arr[0]=new int[3];
-		arr[1]=new int[1];
-		arr[2]=new int[2];
-		arr[2]=new int[2];
-		arr[2]=new int[4];
-		int count=0;
-		for(int i=0;i<=arr.length;i++)
-		{
-			for(int j=0;j<=arr.length;j++)
-			{
-				arr[i][j]=count++;
-			}
-		}
-		for(int i=0;i<=arr.length;i++)
-		{
-			for(int j=0;j<=arr.length;j++)
-			{
-				System.out.print(arr[i][j]+" ");
-			}
-			System.out.println();
-		}
+	    //Integer
+		int a=10;
+		Integer A =a;
+		System.out.println(A);
 		
-
+        //Double 
+		double d=13.2;
+		Double D=d;
+		System.out.println(D);
+		
+		//float
+		float f=3.6f;
+		Float F=f;
+		System.out.println(F);
+		
+		//Character 
+		char c='d';
+		Character C=c;
+		System.out.println(c);
+		
+		//boolean 
+		boolean b=true;
+		Boolean B=b;
+		System.out.println(B);
+		
+		//byte
+		byte b1=5;
+		Byte B1=b1;
+		System.out.println(B1);
+		
 	}
 
 }
