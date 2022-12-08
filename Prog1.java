@@ -1,19 +1,24 @@
-package com.java1.dt;
+package com.java3.array;
 
 public class Prog1 {
 
-	public static void main(String[] args)
+	public static void main(String[] args) 
 	{
-		for(int i=1;i<=10;i++)
+	//	single dimentional array
+		int i[]=new int [5];
+		i[0]=20;
+		i[1]=30;
+		i[2]=40;
+		i[3]=50;
+		i[4]=60;
+		for(int a=0;a<=i.length;a++)
 		{
-			if(i==5)
-			{
-				//continue;
-				break;
-			}
-			System.out.println(i);
+			System.out.println(i[a]);
+			
 		}
+		
 
 	}
+	
 
 }
